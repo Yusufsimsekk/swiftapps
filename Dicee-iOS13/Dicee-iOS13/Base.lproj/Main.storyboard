@@ -53,15 +53,19 @@
                                     <action selector="ModeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qXe-8E-JPr"/>
                                 </connections>
                             </button>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aaq-5i-18B">
-                                <rect key="frame" x="335" y="44" width="49" height="31"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is random Mode." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="NZr-pd-Mcl">
+                                <rect key="frame" x="0.0" y="614" width="414" height="80.999999999999943"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </switch>
+                                <color key="backgroundColor" red="0.39215686274509803" green="0.43921568989999998" blue="0.086274504660000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="23"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
+                        <outlet property="Label" destination="NZr-pd-Mcl" id="719-dB-Pfv"/>
                         <outlet property="rollImageOne" destination="Eir-4x-NOH" id="QZy-kG-4fc"/>
                         <outlet property="rollImageTwo" destination="Fcc-3a-coS" id="xCV-YE-ycq"/>
                     </connections>
